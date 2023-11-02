@@ -1,0 +1,11 @@
+.buttonBox{
+    background-color: #2F1C33;
+    min-width: 400px;
+    min-height: 450px;
+    margin:20px;
+    border-radius: 10px;
+    display: grid;
+    padding:20px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap:10px;
+}
