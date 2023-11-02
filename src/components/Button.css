@@ -1,0 +1,57 @@
+button{
+    min-width: none;
+    background-color: #6D4A75;
+    font-size: 50px;
+    font-weight: 700;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #000000;
+    border-style: none;
+
+}button:hover {
+    background-color: #7e5786;
+}
+
+
+
+
+  button:nth-child(-n + 4) {
+    background-color: #C62E65;
+}button:nth-child(-n + 4):hover {
+    background-color: #e04981;
+}button:nth-child(1):hover {
+    background-color: #a50c2d;
+}
+
+button:nth-child(8) {
+    background-color: #C62E65;
+}button:nth-child(8):hover {
+    background-color: #e04981;
+}
+
+button:nth-child(12) {
+    background-color: #C62E65;
+}button:nth-child(12):hover {
+    background-color: #e04981;
+}
+
+button:nth-child(16) {
+    background-color: #C62E65;
+}button:nth-child(16):hover {
+    background-color: #e04981;
+}
+
+button:nth-child(18) {
+    background-color: #C62E65;
+}button:nth-child(18):hover {
+    background-color: #e04981;
+}
+
+.equals {
+    background-color: #C62E65;
+  }.equals:hover {
+    background-color: #e04981;
+}
+
+button:nth-child(17) {
+    grid-column:1 / 3;
+}
